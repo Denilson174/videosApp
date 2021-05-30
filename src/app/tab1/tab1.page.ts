@@ -47,6 +47,38 @@ export class Tab1Page {
       classificacao: 67,
       cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tMS2qcbhbkFpcwLnbUE9o9IK4HH.jpg',
       generos:['Aventura', 'Animação', 'Família']
+    },
+    {
+      nome: 'Soul: Uma Aventura com Alma (2020)',
+      lancamento: '25/12/2020',
+      duracao: '1h 40m',
+      classificacao: 83,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bzDAfXoqNAvWUe7uss2NE3BmRqy.jpg',
+      generos:['Família', 'Animação', 'Comédia', 'Drama', 'Música', 'Fantasia']
+    },
+    {
+      nome: 'Cruella (2021)',
+      lancamento: '28/05/2021',
+      duracao: '2h 14m',
+      classificacao: 88,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ljPHd7WiPVKmuXi1hgQUpZQslbC.jpg',
+      generos:['Comédia', 'Crime']
+    },
+    {
+      nome: 'Monster Hunter (2020)',
+      lancamento: '25/02/2021',
+      duracao: '1h 43m',
+      classificacao: 71,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Am1ipOQiOMrH55tCCT2ObNiF1rW.jpg',
+      generos:['Fantasia', 'Ação', 'Aventura']
+    },
+    {
+      nome: 'Godzilla vs. Kong (2021)',
+      lancamento: '01/04/2021',
+      duracao: '1h 53m',
+      classificacao: 81,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wllzjZxg4ynlAm5xmOICJ2uHOPJ.jpg',
+      generos:['Ação', 'Ficção científica']
     }
 
   ];

@@ -1,25 +1,24 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-export interface IFilmeApi {
+export interface ISeriesApi {
   poster_path?: string;
-  adult?: boolean;
+  popularity?: number;
+  id?: number;
+  vote_average?: number;
   overview?: string;
+  adult?: boolean;
   release_date?: string;
   genre_ids?: number[];
-  id?: number;
-  original_title?: string;
+  original_name?: string;
   original_language?: string;
   title?: string;
-  backdrop_path?: string;
-  popularity?: number;
   vote_count?: number;
   video?: boolean;
-  vote_average?: number;
 }
 
 
-export interface IListaFilmes {
+export interface IListaSeries {
   page: number;
-  results: IFilmeApi[];
+  results: ISeriesApi[];
   total_results: number;
   total_pages: number;
 }

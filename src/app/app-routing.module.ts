@@ -11,7 +11,6 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
-
   {
     path: 'dados-filme',
     loadChildren: () => import('./dados-filme/dados-filme.module').then( m => m.DadosFilmePageModule)
@@ -19,6 +18,14 @@ const routes: Routes = [
   {
     path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'cadastro',
+    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
+  {
+    path: 'dados-serie',
+    loadChildren: () => import('./dados-serie/dados-serie.module').then( m => m.DadosSeriePageModule)
   }
 ];
 @NgModule({

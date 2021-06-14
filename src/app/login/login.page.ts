@@ -26,6 +26,9 @@ export class LoginPage implements OnInit {
       this.presentToast('ERRO, usuário e/ou senha inválidos!', 'danger');
     }
   }
+  cadastrar(){
+    this.route.navigateByUrl('/cadastro');
+  }
 
   async presentToast(texto: string, cor: string) {
     const toast = await this.toastController.create({

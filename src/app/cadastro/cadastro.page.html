@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Cadastro Usuário</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="dark">
+  <div class="center">
+    <ion-item lines="nome" color="dark">
+      <ion-label position="floating">Nome:</ion-label>
+      <ion-input  name="nomec" [(ngModel)]="nomec" class="nomec" type="text" ></ion-input>
+    </ion-item>
+    <ion-item lines="nome" color="dark">
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email" [(ngModel)]="emailc"></ion-input>
+    </ion-item>
+    <ion-item lines="nome" color="dark">
+      <ion-label position="floating">Telefone:</ion-label>
+      <ion-input type="phone"></ion-input>
+    </ion-item>
+    <ion-item lines="nome" color="dark">
+      <ion-label position="floating">Senha:</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-button  expand="full" fill="outline" color="light">
+      CADASTRAR
+    </ion-button>
+  </div>
+</ion-content>
